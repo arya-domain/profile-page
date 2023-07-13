@@ -406,8 +406,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid #ffffff;
   position: center;
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	z-index: 86;
   margin: 1 0px 0 250px
 }
@@ -420,7 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   width: 100%;
   position: center;
-  background-image: url('../src/assets/img/profilephoto.png');
+  background-image: url('../src/assets/img/profilephoto1.png');
   transform: scale(0.8);
   background-size: cover;
   border-radius: 50%;

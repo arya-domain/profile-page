@@ -65,7 +65,7 @@ export const Banner = () => {
                   <p>✤ Knack for Developing </p>
                   <p>✤ Coding Enthusiast</p>
                   <p>✤ Competitive Programmer</p>
-                  <a href="resume.pdf" download="Aryan Das.pdf" className="btn btn-primary" >Download Resume <ArrowDownCircle size={35} /></a>
+                  <a href="resume1.pdf" download="Aryan Das.pdf" className="btn btn-primary" >Download Resume <ArrowDownCircle size={35} /></a>
                 </div>}
             </TrackVisibility>
           </Col>
