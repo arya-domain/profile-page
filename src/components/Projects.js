@@ -55,7 +55,7 @@ export const Projects = () => {
                             </tr>
                           </thread>
                           <tbody>
-                            <tr className="hover-zoom">
+                            {/* <tr className="hover-zoom">
                               <td>✦&nbsp; Crypto DEX Using Smart Contracts</td>
                               <td>&nbsp;&nbsp;</td>
                               <td>
@@ -63,7 +63,7 @@ export const Projects = () => {
                                   Github
                                 </a>
                               </td>
-                            </tr>
+                            </tr> */}
                             <tr className="hover-zoom">
                               <td>
                                 ✦&nbsp; RNA-Sequencing Using NCBI Sequencing
@@ -146,13 +146,15 @@ export const Projects = () => {
                             </tr>
                             <tr className="hover-zoom">
                               <td>
-                                ✦&nbsp;Novel Deep Learning Model with Modified
-                                Whale optimization for <br /> Fish Image
-                                Classification
+                                ✦&nbsp;CO-WOA: Novel Optimization Approach for{" "}
+                                <br /> Deep Learning Classification of Fish
+                                Image
                               </td>
                               <td>&nbsp;&nbsp;</td>
                               <td>
-                                <a href="">Publishing</a>
+                                <a href="https://doi.org/10.1002/cbdv.202201123">
+                                  Published
+                                </a>
                               </td>
                             </tr>
                           </tbody>

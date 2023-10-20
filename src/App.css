@@ -409,13 +409,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	width: 400px;
 	height: 400px;
 	z-index: 86;
-  margin: 1 0px 0 250px
+  margin: 1 0px 0 250px;
+  transition: 1s ease-in-out;
 }
 
 .banner .profile-picture {
   transform: scale(1.25);
-  transition: 1s ease-out;
+  transition: 1s ease-in-out  ;
 }
+
 .banner .profile-picture-background {
   height: 100%;
   width: 100%;
@@ -426,11 +428,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 1s ease-in-out;
 }
 
 .banner .profile-picture-background:hover {
   transform: scale(1);
-  transition: 1s ease-out;
+  transition: 1s ease-in-out;
 }
 
 @keyframes updown {
